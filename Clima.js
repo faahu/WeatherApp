@@ -56,15 +56,15 @@ function weatherDetails(info) {
         const {feels_like, humidity, temp} = info.main;
 
         if(id == 800){
-            wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/48f8e42129694eb00548c72f585676db3903d31b/Icons/rain.svg";
+            wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/0b4e149fe0dd0995bb977e3f029b4f94d9abe18f/Icons/clear.svg";
         } else if (id >= 200 && id <= 232){
-            wIcon.src = "icons/storm.svg";
+            wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/0b4e149fe0dd0995bb977e3f029b4f94d9abe18f/Icons/storm.svg";
         } else if (id >= 600 && id <= 622){
-            wIcon.src = "icons/snow.svg";
+            wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/0b4e149fe0dd0995bb977e3f029b4f94d9abe18f/Icons/snow.svg";
         } else if (id >= 701 && id <= 781){
-            wIcon.src = "icons/haze.svg";
+            wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/0b4e149fe0dd0995bb977e3f029b4f94d9abe18f/Icons/haze.svg";
         } else if (id >= 801 && id <= 804){
-            wIcon.src = "icons/cloud.svg";
+            wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/0b4e149fe0dd0995bb977e3f029b4f94d9abe18f/Icons/cloud.svg";
         } else if ((id >= 300 && id <= 321) || (id >= 500 && id <= 531)) {
             wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/48f8e42129694eb00548c72f585676db3903d31b/Icons/rain.svg";
         }

@@ -56,7 +56,7 @@ function weatherDetails(info) {
         const {feels_like, humidity, temp} = info.main;
 
         if(id == 800){
-            wIcon.src = "icons/crear.svg";
+            wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/48f8e42129694eb00548c72f585676db3903d31b/Icons/rain.svg";
         } else if (id >= 200 && id <= 232){
             wIcon.src = "icons/storm.svg";
         } else if (id >= 600 && id <= 622){

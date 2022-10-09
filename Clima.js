@@ -66,7 +66,7 @@ function weatherDetails(info) {
         } else if (id >= 801 && id <= 804){
             wIcon.src = "icons/cloud.svg";
         } else if ((id >= 300 && id <= 321) || (id >= 500 && id <= 531)) {
-            wIcon.src = "icons/rain.svg";
+            wIcon.src = "https://raw.githubusercontent.com/faahu/WeatherApp/48f8e42129694eb00548c72f585676db3903d31b/Icons/rain.svg";
         }
 
 

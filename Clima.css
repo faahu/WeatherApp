@@ -10,7 +10,8 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #43affc;
+    background: #0b005c;
+    background: url('icons/gifeano.gif');
 }
 .wrapper{
     width: 400px;
